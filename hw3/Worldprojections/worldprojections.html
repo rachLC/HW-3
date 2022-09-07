@@ -12,32 +12,32 @@
     <p>QGIS allowed me to change the coordinate reference systems of the map by clicking on the CRS button in the lower right of the QGIS platform.  I could then scroll through and select new CRS settings, and thus change the projection, for the map I was working on.  This enabled me to represent the same data in a variety of ways through different projections. </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection appears to have the most accuracy for regions close to the equator.  It preserves size and shape for areas closely surrounding the equator.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The aitoff projection has the most accuracy near the equator, where it preserves size and shape of those land forms.  Continents near the outer edge of the spherical map (poles and extreme latitudes) are more distorted.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>Pseudo Mercator- EPSG: 3857</h2>
-    <h3>Some observations</h3>
+    <h3>The mercator projection is a cylindrical projection with the point of contact being the equator.  The projection is most accurate near the equator because it has the least distortion.  </h3>
     <a href=".//maps/3857.png">
     <img src=".//maps/3857.png" alt="3857" width='500px'>
     </a>
     <h2>Sphere Winkel- EPSG: 53018</h2>
-    <h3>Some observations</h3>
+    <h3>The Sphere Winkel is similar to the Aitoff projections in that it displays a flat image of the world, but purposely distorts measurements to demonstrate the curve of the globe.  There appears to be less distortion of the map at the poles than the Aitoff projection.</h3>
     <a href=".//maps/53018.png">
     <img src=".//maps/53018.png" alt="53018" width='500px'>
     </a>
     <h2>World Cylindrical- EPSG:54034</h2>
-    <h3>Some observations</h3>
+    <h3>The world cylindrical is similar to the mercator projection in that they are both cylindrical projections with the greatest accuracy near the equator.  However, the world cylindrical map appears to be much more distorted in the lateral sense.  The map almost seems to be stretched too far, whereas the mercator map is much more proportional and square.</h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="54034" width='500px'>
     </a>
     <h2>World Equidistant Conic- EPSG: 54027</h2>
-    <h3>Some observations</h3>
+    <h3>The world equidistant conic projection displays the least distortion around the North Pole, because that is the point of contact. Distortion increases as the locations move farther away from the map center.</h3>
     <a href=".//maps/54027.png">
     <img src=".//maps/54027.png" alt="54027" width='500px'>
     </a>
@@ -52,7 +52,7 @@
     <img src=".//maps/3974.png" alt="3857" width='500px'>
     </a>
     <h2>World Equidistant Cylindrical- EPSG: 4087</h2>
-    <h3>Some observations</h3>
+    <h3>The world equidistant cylindrical map is almost identical to the WGS84 map projection, as they are both cylindrical.  Therefore, these two maps preserve the same qualities, like size and shape of regions near the equator.</h3>
     <a href=".//maps/4087.png">
     <img src=".//maps/4087.png" alt="3857" width='500px'>
     </a>
